@@ -755,10 +755,7 @@ footer {
 }
 
 /* updates */
-.pp-banner-wrapper{
- background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 41.6%, rgba(0, 0, 0, 0.03) 85%), url('images/mainBanner.jpg') center center / cover no-repeat;
 
-}
 .faculty-card {
     display: flex;
     flex-direction: column;
