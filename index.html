@@ -1856,7 +1856,7 @@
         .pp-banner__seo-content {
             font-size: 14px;
             line-height: 20px;
-            color: rgba(255, 255, 255, 0.7);
+            color: rgba(255, 255, 255, 0.8);
             font-weight: 400;
             margin-bottom: 0;
             font-family: Poppins, "Adjusted Arial Fallback", sans-serif
@@ -1882,7 +1882,7 @@
             align-items: center;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 12px
+            /* gap: 12px */
         }
 
         .pp-banner__urgency {
@@ -2069,6 +2069,9 @@
 
         .seo-layout-2 .pp-banner__urgency .pp-banner__urgency-img {
             /* background-color: unset; */
+            /* color: white;*/  
+            background: #fea766; 
+            border-radius: 10px;
             position: unset;
             margin-right: 8px;
             height: 16px;
@@ -3080,7 +3083,7 @@
         }
 
         .brochure-deadline {
-            font-size: 16px;
+            font-size: 15px;
             line-height: 24px;
             letter-spacing: .5px;
             color: #212121
@@ -3630,7 +3633,8 @@
 
 
 
-                            <div class="pp-banner-additional">
+                            <div class="pp-banner-additional"
+                                style="display: flex; flex-direction: column; align-items: start;">
                                 <p class="pp-banner__urgency">
                                     <img class="pp-banner__urgency-img" src="images/icons/error-outline.svg"
                                         alt="phone icon" title="phone icon">
@@ -3638,6 +3642,12 @@
                                     <span>
                                         Book Your Seat Now
                                     </span>
+                                </p>
+                                <p class="pp-banner__urgency">
+                                    <img class="pp-banner__urgency-img" src="images/icons/scholarship.svg"
+                                        alt="phone icon" title="phone icon">
+                                    <span class="urgency-title">Scholarships Available | No Application Fee</span>
+
                                 </p>
                                 <p class="pp-banner__phone">
                                     <img src="images/icons/phone.svg" alt="phone icon" title="phone icon">
@@ -3762,10 +3772,6 @@
                                             data-btn-text="Download Brochure">
                                             Download Brochure
                                         </button>
-
-
-                                        <p class="curriculum-note"></p>
-
                                     </form>
 
                                 </div>
@@ -3826,8 +3832,8 @@
                         </div>
 
                         <p class="brochure-deadline">
-                            Admissions are
-                            <span> closing soon</span>
+                            Application Deadline:
+                            <span> April 20 & August 20</span>
                         </p>
                     </div>
                 </div>
@@ -3959,10 +3965,10 @@
                                                     </div>
                                                     <div class="feedback-card__body">
                                                         <div class="feedback-card__seo-content js-readmore-conatiner">
-                                                            <p>At just £4250, our MBA programme offers exceptional value
-                                                                without compromising on quality — making world-class
-                                                                education accessible to ambitious professionals
-                                                                everywhere.</p>
+                                                            <p>At just <b>£4250</b>, our MBA programme offers unbeatable
+                                                                value — with scholarships available for eligible
+                                                                candidates, making world-class education more accessible
+                                                                than ever.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -3987,82 +3993,89 @@
                                             </svg>
                                         </div>
                                     </div>
-                                    
+
 
                                 </div>
 
                                 <div class="section-body stats-row">
-                                        <div class="stats-item">
-                                            <div class="stats-item__info">
-                                                <h3 class="large-text-1 stats-item__title text-primary">
-                                                    5<small class="text-uppercase">+ Years</small>
-                                                </h3>
-                                                <div>legacy educating working professionals.*</div>
-                                            </div>
+                                    <div class="stats-item">
+                                        <div class="stats-item__info">
+                                            <h3 class="large-text-1 stats-item__title text-primary">
+                                                5<small class="text-uppercase">+ Years</small>
+                                            </h3>
+                                            <div>legacy educating working professionals.*</div>
                                         </div>
-                                        <div class="stats-item">
-                                            <div class="stats-item__info">
-                                                <h3 class="large-text-1 stats-item__title text-primary">
-                                                    91<small class="text-uppercase">%</small>
-                                                </h3>
-                                                <div>of students work while completing a program.*</div>
-                                            </div>
+                                    </div>
+                                    <div class="stats-item">
+                                        <div class="stats-item__info">
+                                            <h3 class="large-text-1 stats-item__title text-primary">
+                                                91<small class="text-uppercase">%</small>
+                                            </h3>
+                                            <div>of students work while completing a program.*</div>
                                         </div>
-                                        <div class="stats-item">
-                                            <div class="stats-item__info">
-                                                <h3 class="large-text-1 stats-item__title text-primary">
-                                                    90<small class="text-uppercase">%</small>
-                                                </h3>
-                                                <div>of alumni would recommend LAAT to others.**</div>
-                                            </div>
+                                    </div>
+                                    <div class="stats-item">
+                                        <div class="stats-item__info">
+                                            <h3 class="large-text-1 stats-item__title text-primary">
+                                                90<small class="text-uppercase">%</small>
+                                            </h3>
+                                            <div>of alumni would recommend LAAT to others.**</div>
                                         </div>
-                                        <div class="stats-item">
-                                            <div class="stats-item__info">
-                                                <h3 class="large-text-1 stats-item__title text-primary">
-                                                    3900<small class="text-uppercase">+</small>
-                                                </h3>
-                                                <div>global alumni network*</div>
-                                            </div>
+                                    </div>
+                                    <div class="stats-item">
+                                        <div class="stats-item__info">
+                                            <h3 class="large-text-1 stats-item__title text-primary">
+                                                3900<small class="text-uppercase">+</small>
+                                            </h3>
+                                            <div>global alumni network*</div>
                                         </div>
+                                    </div>
                                 </div>
                             </div>
 
                         </div>
 
 
-                        
+
                         <!-- key hilights -->
                         <div class="section-body" style="margin-top:30px">
                             <h2 class="section-title text-center">Key Highlights:
                             </h2>
                             <div class="stats-row">
-                                        <div class="stats-item " style="background-color: #92210f; border-radius: 10px;">
-                                            <div class="stats-item__info hover">
-                                               <img src="images/img-2.png" alt="Dual Certification Icon" style="width: 80px;">
-                                                <div style="color: white;">Earn both an ATHE Level 7 Diploma and an MBA from Plymouth Marjon University, boosting your global recognition and employability.</div>
-                                            </div>
-                                        </div>
-                                        <div class="stats-item" style="background-color: #92210f; border-radius: 10px;">
-                                            <div class="stats-item__info hover">
-                                               <img src="images/img-1.png" alt="Dual Certification Icon" style="width: 80px;">
-                                                <div style="color: white;">Enjoy the best of both worlds with a 60:40 mix of online self-paced modules and live expert-led sessions designed for working professionals.</div>
-                                            </div>
-                                        </div>
-                                        <div class="stats-item" style="background-color: #92210f; border-radius: 10px;">
-                                            <div class="stats-item__info hover">
-                                               <img src="images/img-3.png" alt="Dual Certification Icon" style="width: 80px;">
-                                                <div style="color: white;">Complete your internationally recognised MBA in just 12–14 months, without pausing your career.</div>
-                                            </div>
-                                        </div>
-                                        <div class="stats-item" style="background-color: #92210f; border-radius: 10px;">
-                                            <div class="stats-item__info hover">
-                                                 <img src="images/img-4.png" alt="Dual Certification Icon" style="width: 80px;">
-                                                <div style="color: white;">Study with Plymouth Marjon University — with 180+ years of legacy, ranked Top 3 in the UK for teaching quality, and among the top 600 globally for Quality Education</div>
-                                            </div>
-                                        </div>
+                                <div class="stats-item " style="background-color: #92210f; border-radius: 10px;">
+                                    <div class="stats-item__info hover">
+                                        <img src="images/img-2.png" alt="Dual Certification Icon" style="width: 80px;">
+                                        <div style="color: white;">Earn both an ATHE Level 7 Diploma and an MBA from
+                                            Plymouth Marjon University, boosting your global recognition and
+                                            employability.</div>
+                                    </div>
                                 </div>
+                                <div class="stats-item" style="background-color: #92210f; border-radius: 10px;">
+                                    <div class="stats-item__info hover">
+                                        <img src="images/img-1.png" alt="Dual Certification Icon" style="width: 80px;">
+                                        <div style="color: white;">Enjoy the best of both worlds with a 60:40 mix of
+                                            online self-paced modules and live expert-led sessions designed for working
+                                            professionals.</div>
+                                    </div>
+                                </div>
+                                <div class="stats-item" style="background-color: #92210f; border-radius: 10px;">
+                                    <div class="stats-item__info hover">
+                                        <img src="images/img-3.png" alt="Dual Certification Icon" style="width: 80px;">
+                                        <div style="color: white;">Complete your internationally recognised MBA in just
+                                            12–14 months, without pausing your career.</div>
+                                    </div>
+                                </div>
+                                <div class="stats-item" style="background-color: #92210f; border-radius: 10px;">
+                                    <div class="stats-item__info hover">
+                                        <img src="images/img-4.png" alt="Dual Certification Icon" style="width: 80px;">
+                                        <div style="color: white;">Study with Plymouth Marjon University — with 180+
+                                            years of legacy, ranked Top 3 in the UK for teaching quality, and among the
+                                            top 600 globally for Quality Education</div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="highlights-section d-none">
-                                
+
                                 <!-- <ul class="highlights-list">
                                     <li class="highlights-list__item">
                                         <img class="highlight-icon lazy" src="images/icons/industrial.svg" width="20"
@@ -4380,8 +4393,10 @@
                                 <div class="program-fee__details">
                                     <div class="apply-now-section ">
                                         <div class="price-info">
-                                            <h1 class="price-info__heading">Tuition Fee: £4250/- </h1>
-                                            <!-- <p class="price-info__subheading">Program Fee: ₹ 3,70,000 </p> -->
+                                            <h1 class="price-info__heading fw-bolder">Tuition Fee: £4250/- </h1>
+                                            <p class="highlight-line">🎓 Scholarships Available with Zero Application
+                                                Fee</p>
+
                                         </div>
                                         <a href="#" class="btn price-info-cta btn-style overlapped btn-md "
                                             data-title="Program fees with detail variant">
@@ -4392,8 +4407,8 @@
                                         <div class="emi-card ">
                                             <div class="emi-card__header">
                                                 <img class="emi-card__img lazy gl-shimmer"
-                                                    src="images/icons/account-balance.svg"
-                                                    alt="Wallet Icon" title="Wallet Icon">
+                                                    src="images/icons/account-balance.svg" alt="Wallet Icon"
+                                                    title="Wallet Icon">
                                                 <p class="emi-card__title">ATHE Diploma in Strategic Management &
                                                     Leadership</p>
                                             </div>
@@ -4418,8 +4433,7 @@
                                         <div class="emi-card ">
                                             <div class="emi-card__header">
                                                 <img class="emi-card__img lazy gl-shimmer"
-                                                    src="images/icons/scholarship.svg"
-                                                    alt="First American">
+                                                    src="images/icons/scholarship.svg" alt="First American">
                                                 <p class="emi-card__title">MBA Top-Up – Plymouth Marjon University </p>
                                             </div>
                                             <div class="emi-card__heading"></div>
@@ -4459,7 +4473,7 @@
                                             alt="steps icon" title="steps icon">
                                         <div class="process-card__content">
                                             <h3 class="process-card__title">1. Submit your application</h3>
-                                          
+
                                         </div>
                                     </div>
                                 </li>
@@ -4470,7 +4484,7 @@
                                         <div class="process-card__content">
                                             <h3 class="process-card__title">2. Take the internal English test (if
                                                 required)</h3>
-                                           
+
                                         </div>
                                     </div>
                                 </li>
@@ -4480,7 +4494,7 @@
                                             title="steps icon">
                                         <div class="process-card__content">
                                             <h3 class="process-card__title">3. Attend a short interview (if needed)</h3>
-                                          
+
                                         </div>
                                     </div>
                                 </li>
@@ -4491,7 +4505,7 @@
                                         <div class="process-card__content">
                                             <h3 class="process-card__title">4. Receive your offer and begin your MBA
                                                 journey</h3>
-                                          
+
                                         </div>
                                     </div>
                                 </li>
