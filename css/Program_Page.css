@@ -1720,6 +1720,17 @@
     padding: 16px;
     box-shadow: 0 3.8px 11px 0 rgba(0,0,0,.12),0 .5px 5px 0 rgba(0,0,0,.04)
 }
+.feedback-card-2 {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 16px;
+    gap: 16px;
+    width: 320px;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 16px;
+    box-shadow: 0 3.8px 11px 0 rgba(0,0,0,.12),0 .5px 5px 0 rgba(0,0,0,.04)
+}
 
 @media screen and (min-width: 1024px) {
     .feedback-testimonial-slider {
@@ -1755,6 +1766,9 @@
 
     .feedback-card {
         width: 515px
+    }
+    .feedback-card-2 {
+        width: 380px
     }
 }
 
@@ -4131,4 +4145,45 @@
     .emi-card__header {
         height:80px
     }
+}
+
+
+.stats-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.stats-item {
+  flex: 1 1 300px; /* Responsive - min width 300px */
+  max-width: 350px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.stats-item__title {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+
+.text-primary {
+  color: #92210f;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.large-text-1 {
+  font-size: 3rem;
+}
+
+
+.hover:hover > img {
+  transform: scale(1.1);
+  transition: transform  0.4s ease-in-out;
 }
