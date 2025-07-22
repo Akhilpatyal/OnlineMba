@@ -250,7 +250,7 @@
 
 .iti__country-container {
   position: absolute;
-  top: 0;
+  top: -8px !important;
   bottom: 0;
   padding: 1px;
   background-color: #ced4da;
@@ -263,6 +263,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100%;
   background: none;
   border: 0;
